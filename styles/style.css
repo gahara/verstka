@@ -19,7 +19,7 @@
     max-height: 756px;
 
     background-color: #F2F2F2;
-
+    z-index: 1;
 
     outline: solid cyan;
 
@@ -93,4 +93,5 @@
     top: 64px;
     right: 0;
     background: #2F80ED;
+    z-index: -1;
 }
