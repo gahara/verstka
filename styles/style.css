@@ -21,7 +21,7 @@
     background-color: #F2F2F2;
 
 
-    border: solid aqua;
+    outline: solid cyan;
 
 
     /* выше установили ограничения для секции */
@@ -77,8 +77,8 @@
     position: absolute;
     background-image: url(../images/two_again.png);
     background-size: contain;
+    background-position:right;
     background-repeat: no-repeat;
-    background-position: center;
     width: 765px;
     height: 608px;
     bottom: 0;
@@ -87,7 +87,10 @@
 
 /* ниже мы привели пример двух селекторов, чтобы вы вспомнили запись элемента */
 .header__square-pic {
+    position:absolute;
     height: 568px;
     width: 568px;
+    top: 64px;
+    right: 0;
     background: #2F80ED;
 }
